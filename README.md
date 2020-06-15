@@ -6,8 +6,11 @@
 
 public class abc {
 	public static HashMap<Integer, Integer> solution(HashMap<Integer, Integer> map){	
+		
+		public static HashMap<Integer, Integer> solution(HashMap<Integer, Integer> map){	
 		//map here indicates hashmap like dictionary woth key and values
 		//key denotes date in hashmap
+		
 		
 		int key1=-1,key2=-1;
 		for(Integer key:map.keySet()) {
