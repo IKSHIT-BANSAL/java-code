@@ -1,10 +1,5 @@
 # java-code
 
-package codezen;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Scanner;
 public class abc {
 	public static HashMap<Integer, Integer> solution(HashMap<Integer, Integer> map){		
 		int key1=-1,key2=-1;
@@ -24,30 +19,3 @@ public class abc {
 		}
 		return map;
 	}
-
-	public static void main(String[] args) {
-		HashMap<Integer, Integer> map=new HashMap<Integer, Integer>();
-		Scanner s=new Scanner(System.in);
-		System.out.println("enter choice 1 to take input 0 to not take input");
-		int ch=s.nextInt();
-		int key=-1;
-		int value=-1;
-		
-		while(ch!=0) {
-			if(ch==1) {
-				System.out.println("enter key:");
-				 key=s.nextInt();
-				System.out.println("enter its value:");
-				 value=s.nextInt();
-				map.put(key, value);			
-			}else {
-				System.out.println("do not enter");
-			}
-			System.out.println("enter choice 1 to take input 0 to not take input");
-			ch=s.nextInt();
-		}
-		solution(map);
-	}
-
-}
-  
