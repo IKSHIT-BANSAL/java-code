@@ -1,5 +1,9 @@
 # java-code
 
+
+
+
+
 public class abc {
 	public static HashMap<Integer, Integer> solution(HashMap<Integer, Integer> map){	
 		//map here indicates hashmap like dictionary woth key and values
